@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#1001",
+    "login_issues": "Login Issues - Can't Access Account",
+    "p_tag": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "name": "John Smith",
+    "date": "1/15/2024"
+  },
+  {
+    "id": "#1002",
+    "login_issues": "Payment Failed - Card Declined",
+    "p_tag": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "name": "Sarah Johnson",
+    "date": "1/16/2024"
+  },
+  {
+    "id": "#1003",
+    "login_issues": "Unable to Download Invoice",
+    "p_tag": "Customer cannot download their January invoice from the billing section. The download button is...",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "name": "Michael Brown",
+    "date": "1/17/2024"
+  },
+  {
+    "id": "#1004",
+    "login_issues": "Incorrect Billing Address",
+    "p_tag": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+    "priority": "LOW PRIORITY",
+    "status": "In-Progress",
+    "name": "Emily Davis",
+    "date": "1/18/2024"
+  },
+  {
+    "id": "#1005",
+    "login_issues": "App Crash on Launch",
+    "p_tag": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "name": "David Wilson",
+    "date": "1/19/2024"
+  },
+  {
+    "id": "#1006",
+    "login_issues": "Refund Not Processed",
+    "p_tag": "Customer requested a refund two weeks ago but has not received the amount yet.",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "name": "Sophia Taylor",
+    "date": "1/20/2024"
+  },
+  {
+    "id": "#1007",
+    "login_issues": "Two-Factor Authentication Issue",
+    "p_tag": "Customer is not receiving 2FA codes on their registered phone number.",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "name": "James Anderson",
+    "date": "1/21/2024"
+  },
+  {
+    "id": "#1008",
+    "login_issues": "Unable to Update Profile Picture",
+    "p_tag": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+    "priority": "LOW PRIORITY",
+    "status": "In-Progress",
+    "name": "Olivia Martinez",
+    "date": "1/22/2024"
+  },
+  {
+    "id": "#1009",
+    "login_issues": "Subscription Auto-Renewal",
+    "p_tag": "Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "name": "Liam Thomas",
+    "date": "1/17/2024"
+  },
+  {
+    "id": "#1010",
+    "login_issues": "Missing Order Confirmation Email",
+    "p_tag": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "name": "Isabella Garcia",
+    "date": "1/24/2024"
+  }
+]
