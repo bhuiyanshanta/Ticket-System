@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 import { useEffect, useState } from "react";
 import TicketList from "./TicketList";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 function App() {
   const [tickets, setTickets] = useState([]);
@@ -16,8 +16,11 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("/Tickets.json") // আপনার ফাইলের নাম 'Tickets.json' হলে এটি ঠিক আছে
-      .then((res) => res.json())
+    fetch("Tickets.json") // শুরুতে / সরিয়ে দিন
+      .then((res) => {
+        if (!res.ok) throw new Error("JSON ফাইলটি পাওয়া যায়নি");
+        return res.json();
+      })
       .then((data) => setTickets(data))
       .catch((err) => console.error("Error loading JSON:", err));
   }, []);
