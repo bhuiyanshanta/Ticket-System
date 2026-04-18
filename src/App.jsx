@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 import { useEffect, useState } from "react";
 import TicketList from "./TicketList";
-import Footer from "./TempFooter";
+import Footer from "./Footer";
 
 function App() {
   const [tickets, setTickets] = useState([]);
